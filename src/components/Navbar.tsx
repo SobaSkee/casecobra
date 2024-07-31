@@ -15,7 +15,6 @@ const Navbar = async () => {
           <Link href="/" className="flex z-40 font-semibold">
             case<span className="text-green-600">cobra</span>
           </Link>
-
           <div className="h-full flex items-center space-x-4">
             {user ? (
               <>
